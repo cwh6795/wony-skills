@@ -9,9 +9,17 @@ Personal Claude Code plugin marketplace.
 | `wony-custom-skills` | Skills | doc-coauthoring |
 | `mcp-basic` | MCP | context7, sequential-thinking |
 
-## Setup (per machine)
+## Quick Install
 
-Add to `~/.claude/settings.json`:
+```
+/plugin marketplace add cwh6795/wony-skills
+/plugin install wony-custom-skills@wony-skills
+/plugin install mcp-basic@wony-skills
+```
+
+## Manual Setup
+
+Alternatively, add the marketplace directly to `~/.claude/settings.json`:
 
 ```json
 {
@@ -26,9 +34,4 @@ Add to `~/.claude/settings.json`:
 }
 ```
 
-Then install:
-
-```
-/plugin install wony-custom-skills@wony-skills
-/plugin install mcp-basic@wony-skills
-```
+Then run the install commands from Quick Install above.
