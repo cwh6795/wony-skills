@@ -1,0 +1,26 @@
+{
+  "name": "wony-skills",
+  "owner": {
+    "name": "cwh6795"
+  },
+  "metadata": {
+    "description": "Personal plugin marketplace",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "wony-custom-skills",
+      "description": "Custom skills collection",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/doc-coauthoring"
+      ]
+    },
+    {
+      "name": "mcp-basic",
+      "description": "Basic MCP servers (context7, sequential-thinking)",
+      "source": "./mcp/basic"
+    }
+  ]
+}
